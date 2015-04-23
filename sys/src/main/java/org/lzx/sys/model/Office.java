@@ -46,5 +46,95 @@ public class Office {
 	 * 负责人
 	 */
 	private User primaryPerson;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public Office getParent() {
+		return parent;
+	}
+
+	public void setParent(Office parent) {
+		this.parent = parent;
+	}
+
+	public Office getParentIds() {
+		return parentIds;
+	}
+
+	public void setParentIds(Office parentIds) {
+		this.parentIds = parentIds;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSort() {
+		return sort;
+	}
+
+	public void setSort(String sort) {
+		this.sort = sort;
+	}
+
+	public Area getArea() {
+		return area;
+	}
+
+	public void setArea(Area area) {
+		this.area = area;
+	}
+
+	public String getCode() {
+		return code;
+	}
+
+	public void setCode(String code) {
+		this.code = code;
+	}
+
+	public String getOffice_type() {
+		return office_type;
+	}
+
+	public void setOffice_type(String office_type) {
+		this.office_type = office_type;
+	}
+
+	public String getGrade() {
+		return grade;
+	}
+
+	public void setGrade(String grade) {
+		this.grade = grade;
+	}
+
+	public String getUseable() {
+		return useable;
+	}
+
+	public void setUseable(String useable) {
+		this.useable = useable;
+	}
+
+	public User getPrimaryPerson() {
+		return primaryPerson;
+	}
+
+	public void setPrimaryPerson(User primaryPerson) {
+		this.primaryPerson = primaryPerson;
+	}
+	
+	
 	
 }
