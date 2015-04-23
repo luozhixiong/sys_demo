@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	
+	<!-- 类型别名 -->
+	<!--<typeAliases>
+		<typeAlias type="org.lzx.model.User" alias="User"/>
+		<typeAlias type="org.lzx.model.Department" alias="Department"/>
+	</typeAliases>-->
+	
+	<mappers>
+		<mapper resource="org/lzx/model/User.xml"/>
+		<mapper resource="org/lzx/model/Department.xml"/>
+	</mappers>
+</configuration>	
